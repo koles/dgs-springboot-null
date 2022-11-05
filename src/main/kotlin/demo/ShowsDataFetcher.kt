@@ -17,6 +17,7 @@ class ShowsDataFetcher {
 
     @DgsQuery
     fun shows(@InputArgument titleFilter: String?): List<Show> {
+        print("showing shows!")
         return if (titleFilter != null) {
             shows.filter { it.title.contains(titleFilter) }
         } else {
