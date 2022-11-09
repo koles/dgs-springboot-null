@@ -1,4 +1,4 @@
-package cz.okoun.demo
+package demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
